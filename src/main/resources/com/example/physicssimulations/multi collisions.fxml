@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.collision.MultiCollisions">
+   <children>
+      <AnchorPane fx:id="box" layoutX="11.0" layoutY="14.0" maxHeight="177.0" maxWidth="175.0" minHeight="177.0" minWidth="175.0" prefHeight="177.0" prefWidth="175.0" />
+   </children>
+</AnchorPane>

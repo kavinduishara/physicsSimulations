@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane prefHeight="571.0" prefWidth="1601.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.physicssimulations.GravityController">
+    <children>
+        <AnchorPane fx:id="box" layoutX="14.0" prefHeight="543.0" prefWidth="1666.0" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Circle fx:id="circle1" fill="DODGERBLUE" layoutX="300.0" layoutY="239.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fx:id="circle2" fill="DODGERBLUE" layoutX="500.0" layoutY="239.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label fx:id="v1" layoutX="95.0" layoutY="31.0" text="Label" />
+            <Label fx:id="v2" layoutX="369.0" layoutY="31.0" text="Label" />
+            <Label fx:id="r" layoutX="243.0" layoutY="31.0" text="Label" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
